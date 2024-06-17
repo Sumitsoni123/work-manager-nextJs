@@ -30,7 +30,7 @@ export const POST = async (request) => {
           user: user,
         });
         response.cookies.set("authToken", token, {
-          expiresIn: "1d",
+          expires: "1d",
           httpOnly: true,
         });
 

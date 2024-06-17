@@ -18,5 +18,4 @@ export const DELETE = async (request, { params }) => {
       message: "error deleting user!!",
     });
   }
-  return NextResponse.json(userId);
 };

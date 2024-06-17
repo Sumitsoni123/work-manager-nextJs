@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import UserContext from "./userContext";
-import { toast } from "react-toastify";
 import { currentUser } from "@/services/userService";
 
 const UserProvider = ({ children }) => {
